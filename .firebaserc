@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "sachin-rathee"
+  },
+  "targets": {
+    "sachin-rathee": {
+      "hosting": {
+        "glassmorphism-portfolio": [
+          "sachin-portfolio-1"
+        ]
+      }
+    }
+  }
+}
