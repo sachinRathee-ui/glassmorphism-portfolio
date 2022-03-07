@@ -1,0 +1,31 @@
+.portfolio-section {
+	padding: 50px 0;
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+.portfolio-section.fadeOut {
+	opacity: 0;
+}
+.portfolio-item {
+	width: calc((100% / 3) - 30px);
+	margin: 0 15px 30px;
+}
+.portfolio-item-details {
+	display: none;
+}
+.portfolio-item-thumbnail {
+	padding: 10px;
+	background-color: var(--white-alpha-25);
+	border: 1px solid var(--white-alpha-40);
+	border-radius: 10px;
+}
+.portfolio-item-thumbnail img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.portfolio-item h3 {
+	font-size: 20px;
+	text-transform: capitalize;
+	margin: 20px 0;
+}
